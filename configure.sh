@@ -14,6 +14,8 @@ ln -s -f "$SCRIPT_DIR/powerline/powerline/config_files/colorschemes" "$HOME/.con
 ln -s -f "$SCRIPT_DIR/powerline/powerline/config_files/themes" "$HOME/.config/powerline/themes"
 ln -s -f "$SCRIPT_DIR/powerline/powerline/config_files/colors.json" "$HOME/.config/powerline/colors.json"
 ln -s -f "$SCRIPT_DIR/powerline_config.json" "$HOME/.config/powerline/config.json"
+ln -s -f "$SCRIPT_DIR/powerline_shell_theme.json" "$HOME/.config/powerline/themes/shell/powerline_shell_theme.json"
+ln -s -f "$SCRIPT_DIR/powerline_shell_colorscheme.json" "$HOME/.config/powerline/colorschemes/shell/powerline_shell_colorscheme.json"
 
 mkdir -p "$HOME/.vim/pack/dist/start"
 ln -s -f "$SCRIPT_DIR/vim-airline" "$HOME/.vim/pack/dist/start/vim-airline"

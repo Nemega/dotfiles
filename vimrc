@@ -24,6 +24,12 @@ set laststatus=2
 set noshowmode
 set wrap
 set nofoldenable
+set expandtab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set autoindent
+
 let g:lightline = {'colorscheme': 'solarized'}
 
 let g:syntastic_always_populate_loc_list = 1
