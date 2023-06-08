@@ -1,18 +1,18 @@
-[submodule ".tmux"]
+[submodule "tmux/.tmux"]
 	path = tmux/.tmux
 	url = https://github.com/gpakosz/.tmux.git
-[submodule "tpm"]
+[submodule "tmux/tpm"]
 	path = tmux/tpm
 	url = https://github.com/tmux-plugins/tpm
-[submodule "vim-airline"]
+[submodule "vim/vim-airline"]
 	path = vim/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "vim-airline-themes"]
+[submodule "vim/vim-airline-themes"]
 	path = vim/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "vim-colors-solarized"]
+[submodule "vim/vim-colors-solarized"]
 	path = vim/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "syntastic"]
+[submodule "vim/syntastic"]
 	path = vim/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
