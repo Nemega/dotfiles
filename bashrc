@@ -112,20 +112,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export TERM=screen-256color
 export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-alias gcl='gitlab-ci-local'
-#. /usr/share/powerline/bindings/bash/powerline.sh
-
-
 export GOPATH=$HOME/go
-export PATH=$PATH:/usr/local/go/bi
+export PATH="$VOLTA_HOME/bin:$GOPATH/go/bin:/usr/local/go/bin:$PATH"
 
 function _update_ps1() {
-    PS1="$($GOPATH/bin/powerline-go -error $? -jobs $(jobs -p | wc -l))"
+    PS1="$($GOPATH/bin/powerline-go -jobs $(jobs -p | wc -l))"
 
     # Uncomment the following line to automatically clear errors after showing
     # them once. This not only clears the error for powerline-go, but also for
@@ -138,6 +131,3 @@ function _update_ps1() {
 if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
-
-TERM=screen-256color
-
