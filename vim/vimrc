@@ -4,6 +4,7 @@ set t_Co=256
 let g:solarized_termtrans = 1
 let g:solarized_termcolors=256
 set background=dark
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 set viminfo='100,<1000
 syntax sync minlines=10000
