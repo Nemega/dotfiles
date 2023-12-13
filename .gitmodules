@@ -13,6 +13,6 @@
 [submodule "vim/vim-colors-solarized"]
 	path = vim/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/syntastic"]
-	path = vim/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/ale"]
+	path = vim/ale
+	url = https://github.com/dense-analysis/ale.git

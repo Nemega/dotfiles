@@ -21,7 +21,7 @@ mkdir -p "$HOME/.vim/pack/dist/start"
 ln -s -f "$SCRIPT_DIR/vim/vim-airline" "$HOME/.vim/pack/dist/start/vim-airline"
 ln -s -f "$SCRIPT_DIR/vim/vim-airline-themes" "$HOME/.vim/pack/dist/start/vim-airline-themes"
 ln -s -f "$SCRIPT_DIR/vim/vim-colors-solarized" "$HOME/.vim/pack/dist/start/vim-colors-solarized"
-ln -s -f "$SCRIPT_DIR/vim/syntastic" "$HOME/.vim/pack/dist/start/syntastic"
+ln -s -f "$SCRIPT_DIR/vim/ale" "$HOME/.vim/pack/dist/start/ale"
 ln -s -f "$SCRIPT_DIR/vim/vimrc" "$HOME/.vimrc"
 
 ln -s -f "$SCRIPT_DIR/bash/bashrc" "$HOME/.bashrc"
